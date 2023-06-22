@@ -1,0 +1,80 @@
+.featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featuredItem {
+    flex: 1;
+    margin: 0px 20px;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.featuredItemB {
+    flex: 1;
+    margin: 0px 20px;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.featuredItemC {
+    flex: 1;
+    margin: 0px 20px;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: violet;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.featuredItemD {
+    flex: 1;
+    margin: 0px 20px;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aquamarine;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.featuredTitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.featuredMoneyContainer {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.featuredMoney {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.featuredMoneyRate {
+    display: flex;
+    align-items: center;
+    color: green;
+}
+
+.featuredIcon.negative {
+    color: red;
+}
+
+.featuredSub {
+    font-size: 15px;
+    color: grey;
+}
