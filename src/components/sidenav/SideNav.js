@@ -12,9 +12,10 @@ import {
   ChatBubble,
   ManageAccounts,
   Analytics,
-  Report
+  Report,
 } from "@mui/icons-material";
-import './sidenav.css'
+import "./sidenav.css";
+import { Link } from "react-router-dom";
 
 export default function SideNav() {
   return (
@@ -23,10 +24,13 @@ export default function SideNav() {
         <div className="sideNavMenu">
           <h3 className="sideNavTitle">Dashboard</h3>
           <ul className="sideNavList">
-            <li className="sideNavListItem">
-              <LineStyle className="sidenavIcon" />
-              Home
-            </li>
+            <Link to="/">
+              <li className="sideNavListItem">
+                <LineStyle className="sidenavIcon" />
+                Home
+              </li>
+            </Link>
+
             <li className="sideNavListItem">
               <Timeline className="sidenavIcon" />
               Analytics
@@ -41,10 +45,13 @@ export default function SideNav() {
         <div className="sideNavMenu">
           <h3 className="sideNavTitle">Admin Menu</h3>
           <ul className="sideNavList">
-            <li className="sideNavListItem">
-              <Person className="sidenavIcon" />
-              Users
-            </li>
+            <Link to="/userlist">
+              <li className="sideNavListItem">
+                <Person className="sidenavIcon" />
+                Users
+              </li>
+            </Link>
+
             <li className="sideNavListItem">
               <Paid className="sidenavIcon" />
               Producst
@@ -59,7 +66,6 @@ export default function SideNav() {
             </li>
           </ul>
         </div>
-
 
         <div className="sideNavMenu">
           <h3 className="sideNavTitle">Notification</h3>
@@ -78,7 +84,6 @@ export default function SideNav() {
             </li>
           </ul>
         </div>
-
 
         <div className="sideNavMenu">
           <h3 className="sideNavTitle">Our Staff</h3>

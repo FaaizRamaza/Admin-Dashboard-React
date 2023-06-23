@@ -4,6 +4,7 @@ import Featured from '../../components/featured/Featured'
 import Chart from '../../components/chart/Chart'
 import DisplayTotal from '../../components/displaytotal/DisplayTotal'
 import OrderWidget from '../../components/orderwidget/OrderWidget'
+import MembersWidget from '../../components/memberWidget/MembersWidget'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
         <div className='orderAndMemberWidget'>
           <OrderWidget />
+          <MembersWidget />
         </div>
     </div>
   )

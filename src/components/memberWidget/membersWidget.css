@@ -1,0 +1,61 @@
+
+.membersWidgetContainer {
+    flex: 1;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.membersWidgetTitle {
+    font-size: 20px;
+    font-weight: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.membersWidgetList {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widgetImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.membersWidgetItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+.memberWidgetUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.memberWidgetUsername {
+    font-weight: 600;
+}
+
+.memberWidgetTitle {
+    font-weight: 300;
+}
+
+.memberWidgetButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: gray;
+    cursor: pointer;
+}
+
+.memberWidgetIcon {
+    font-size: 16px;
+    margin-right: 5px;
+}
